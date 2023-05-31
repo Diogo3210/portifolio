@@ -1,0 +1,33 @@
+#container_header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+    background-color: #1F0E2E;
+    color: aliceblue;
+}
+
+#logo{
+    display: flex;
+}
+
+#nav{
+    display: flex;
+    align-items: flex-end;
+    font-size: larger;
+}
+
+#nav ol{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    list-style-type: decimal-leading-zero;
+    margin: 0;
+    padding: 0;
+    color: #AC4DFF;
+}
+
+#nav a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}

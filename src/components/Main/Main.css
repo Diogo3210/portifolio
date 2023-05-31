@@ -1,0 +1,32 @@
+#container {
+    display: grid;
+    grid-template-columns: 10% 1fr;
+}
+
+#container_main {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+#introducing {
+    display: flex;
+    flex-direction: column;
+    gap: 0px 10px;
+}
+
+#introducing h1{
+    font-size: 20px;
+    color: #AC4DFF;
+}
+#introducing h2 {
+    font-size: 80px;
+}
+
+#introducing p {
+    max-width: 40%;
+}
+
+.section_main h2{
+    font-size: 30px;
+}
